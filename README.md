@@ -103,14 +103,20 @@ Across the six operating countries, geographic revenue contribution demonstrates
 
 * **Finding:** Canada and the UK collectively generate **38.88%** of total business revenue. Germany represents the smallest geographic footprint, generating 40% less revenue than Canada despite comparable pricing structures.
 
+### Net Revenue by Country ($ mln.)
+![Net Revenue by Country](images/net_revenue_by_country.png)
+
 ### 3. SKU Concentration & Profit Drivers
 Analysis of the product portfolio reveals significant profit generation among high-cocoa offerings:
 * **Top Profit SKU:** `Dark Chocolate 50%` generated **$709.7K** in gross profit, followed by `Truffle Chocolate 80%` (**$656.8K**).
 * **Core Profit Cluster:** The Top 10 products generated over **$5.30M** in cumulative gross profit across the dataset, driven primarily by premium dark and truffle varieties.
 * **White Chocolate Profile:** Lower individual margins per unit, but consistent mid-tier volume delivery (~$450K–$506K profit contribution per line).
 
+### Top 10 Products by Gross Profit ($)
+![Top 10 Products by Gross Profit](images/top-10_products.png)
+
 ### 4. Customer Segmentation & Promotional Inefficiency
-Auditing customer purchasing behavior between loyalty tiers revealed identical metric distributions:
+Auditing customer purchasing behav\ior between loyalty tiers revealed identical metric distributions:
 * **Volume Distribution:** 1,505,064 units sold to **Loyalty Members** (50.18%) vs. 1,494,525 units to **Standard Customers** (49.82%).
 * **Basket Metrics:** Loyalty Member AOV is **$25.45** vs. **$25.52** for Standard Customers; discount depth is identical at **~5.6%**.
 * **Analytical Takeaway:** The current loyalty program shows negligible incremental basket expansion or brand retention premium. It functions as an administrative tier rather than an active driver of customer lifetime value (LTV).
@@ -136,4 +142,4 @@ Auditing customer purchasing behavior between loyalty tiers revealed identical m
 ## Dashboard Visual Layout & UX Design
 * **Header / Filter Strip:** Dynamic controls (slicers) for `Year`, `Country`, and `Brand` with synchronized slicer report connections across all PivotTables.
 * **Executive Scorecards:** Four dynamic KPI cards (`Net Revenue/YoY Revenue Growth`, `Gross Profit`, `Total Units Sold`, `Discount Depth/AOV`) built with floating linked shape containers and automated variance indicators.
-* **Visual Canvas:** Built on a strict 12-column grid layout with zero-padding alignment, utilizing an executive light palette (canvas background `#F4F6F9` with `#E2E8F0` bordered card containers), balanced dual-accent series colors (`#5B9BD5` Steel Blue for CY / `#ED7D31` Coral-Amber for PY), suppressed field buttons, and removed gridlines for clean presentation fidelity.
+* **Visual Canvas:** Built on a strict 12-column grid layout with zero-padding alignment, utilizing an executive light palette (canvas background `#F4F6F9` with `#E2E8F0` bordered card containers), balanced dual-accent series colors (`#5B9BD5` Steel Blue for CY / `#ED7D31` Coral-Amber for PY), suppressed field buttons, and removed gridlines for clean presentation fidelity. 
